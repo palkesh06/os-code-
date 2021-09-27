@@ -27,7 +27,7 @@ def findavgTime(processes, n):
           "Time    Turn-Around Time")
     total_wt = 0
     total_tat = 0
-    for i in range(n):
+    for i in range(n): 
  
         total_wt = total_wt + wt[i]
         total_tat = total_tat + tat[i]
